@@ -1,0 +1,12 @@
+.categories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    text-align: center;
+    &-list{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+    }
+}

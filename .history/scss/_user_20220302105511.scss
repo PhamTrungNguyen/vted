@@ -1,0 +1,38 @@
+.user{
+    padding: 0.6rem;
+    &-logo img{
+        width:4rem;
+        height:4rem;
+        object-fit: cover;
+        border-radius:1rem;
+    }
+}
+.text-field {
+    position: relative;
+ }
+ 
+ .text-field label {
+    display: inline-block;
+    font-weight: 600;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    background-color: #2196f3;
+    padding: 1px 5px;
+    font-size: 12px;
+    transform: translateY(-50%);
+    color: white;
+ }
+ 
+ .text-field input {
+    padding: 15px;
+    display: block;
+    width: 20rem;
+    font-size: 14px;
+    border: 1px solid #6a5af9;
+    border-radius: 4px;
+    background-color: transparent;
+    color: white;
+ }
+     

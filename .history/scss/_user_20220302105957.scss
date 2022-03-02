@@ -1,0 +1,52 @@
+.user{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    padding: 0.6rem;
+    &-logo img{
+        width:3rem;
+        height:3rem;
+        object-fit: cover;
+        border-radius:1rem;
+    }
+    &-button{
+        padding: 0.7rem 1rem;
+        outline: none;
+        background-color: #f44336;
+        border: 0 solid #000;
+        border-radius:5px;
+        color: #fff;
+        font-weight: 600;
+        cursor: pointer;
+    }
+}
+.text-field {
+    position: relative;
+ }
+ 
+ .text-field label {
+    display: inline-block;
+    font-weight: 600;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    left: 10px;
+    background-color: #2196f3;
+    padding: 3px 3px;
+    border-radius:5px;
+    font-size: 12px;
+    transform: translateY(-50%);
+    color: white;
+ }
+ 
+ .text-field input {
+    padding: 12px;
+    display: block;
+    width: 20rem;
+    font-size: 14px;
+    border: 1px solid #6a5af9;
+    border-radius: 4px;
+    background-color: transparent;
+    color: black;
+ }
+     

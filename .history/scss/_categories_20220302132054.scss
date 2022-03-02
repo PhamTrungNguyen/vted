@@ -1,0 +1,25 @@
+.categories{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    text-align: center;
+    &-list{
+        display: grid;
+        grid-template-columns: repeat(5,1fr);
+        width: 100%;
+        &_item{
+             position: relative;
+        }
+        &_image img{
+            width:210px;
+            height:140px;
+            object-fit: cover;
+            border-radius:1rem;
+        }
+        &_text{
+             position: absolute;
+        }
+    }
+}
