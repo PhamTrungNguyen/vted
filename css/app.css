@@ -412,7 +412,7 @@ body {
 }
 
 .slider-container .slideshow .slide:nth-child(1) {
-  background: url("https://res.cloudinary.com/tuanpham/image/upload/v1646235131/oikmcjnrex1xzrsupca2.jpg") no-repeat center center/cover;
+  background: url("https://res.cloudinary.com/tuanpham/image/upload/v1646235131/oikmcjnrex1xzrsupca2.jpg") no-repeat center/cover;
 }
 
 .slider-container .slideshow .slide:nth-child(2) {
@@ -420,7 +420,7 @@ body {
 }
 
 .slider-container .slideshow .slide:nth-child(3) {
-  background: url("https://i.loli.net/2020/01/06/hJnwRiWvgCcXoAr.png") no-repeat center center/cover;
+  background: url("https://i.loli.net/2020/01/06/hJnwRiWvgCcXoAr.png") no-repeat center/cover;
 }
 
 .slider-container .slideshow .slide:nth-child(4) {
