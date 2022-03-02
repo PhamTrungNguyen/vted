@@ -361,6 +361,7 @@ table {
 }
 
 .categories {
+  padding-bottom: 7rem;
   max-width: 1230px;
   padding-top: 7rem;
   display: flex;
@@ -369,8 +370,10 @@ table {
   flex-wrap: nowrap;
   flex-direction: column;
   text-align: center;
+  margin: 0 auto;
 }
 .categories-text {
+  text-align: center;
   color: #f44336;
   background-color: #f4433669;
   font-size: 17px;
@@ -384,7 +387,6 @@ table {
   font-size: 26px;
 }
 .categories-list {
-  margin-left: 4rem;
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 20px;
@@ -430,7 +432,7 @@ figure.snip0025 {
   max-height: 140px;
   width: 100%;
   background: #000000;
-  text-align: left;
+  text-align: center;
   border-radius: 8px;
   height: 100%;
 }

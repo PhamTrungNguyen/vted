@@ -1,5 +1,4 @@
 .categories {
-  padding-bottom: 7rem;
   max-width: 1230px;
   padding-top: 7rem;
   display: flex;
@@ -20,6 +19,8 @@
     margin-bottom: 1rem;
   }
   &-title {
+    text-align: center;
+    margin: 0 auto;
     font-weight: 600;
     font-size: 26px;
   }
