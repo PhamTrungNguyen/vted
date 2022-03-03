@@ -1,0 +1,125 @@
+.user {
+    background-color: 
+    #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.6rem;
+  &-logo img {
+    width: 3rem;
+    height: 3rem;
+    object-fit: cover;
+    border-radius: 1rem;
+  }
+  &-button {
+    padding: 0.7rem 1rem;
+    outline: none;
+    background-color: #f44336;
+    border: 0 solid #000;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+  }
+  &-list {
+    position: relative;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    &_text {
+      margin-left: 1rem;
+    }
+  }
+}
+.user-list:hover {
+  .user-hover {
+  
+    opacity: 1;
+    visibility: inherit;
+    height: 22rem;
+  }
+  .user-hover_item{
+    height:auto;
+    opacity: 1;
+  }
+}
+.user-hover_item{
+  height: 0;
+  opacity: 0;
+}
+.user-hover {
+  transition: color 1s ease-in-out;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s linear;
+  position: absolute;
+  width: 18rem;
+  height:0;
+  background-color: #fff;
+  top: 2.4rem;
+  left: 0;
+  border-radius: 10px;
+  padding: 1rem;
+  z-index: 9;
+  &_item {
+    margin-bottom: 1rem;
+  }
+  &_link {
+    transition: all 0.3s linear;
+  }
+  &_link:hover {
+    color: rgba(255, 0, 0, 0.74);
+  }
+}
+.user-hover:after{
+    content:"";
+    width:18rem;
+    height:2rem;
+    background-color: transparent;
+    position:absolute;
+    top:-20px;
+    left:0;
+}
+.user-arrow {
+  position: relative;
+  &:after {
+    content: "";
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+    position: absolute;
+    top: -20px;
+    left: 25px;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.text-field {
+  position: relative;
+}
+
+.text-field label {
+  display: inline-block;
+  font-weight: 600;
+  cursor: pointer;
+  position: absolute;
+  top: 0;
+  left: 10px;
+  background-color: #2196f3;
+  padding: 3px 3px;
+  border-radius: 5px;
+  font-size: 12px;
+  transform: translateY(-50%);
+  color: white;
+}
+
+.text-field input {
+  padding: 12px;
+  display: block;
+  width: 20rem;
+  font-size: 14px;
+  border: 1px solid #6a5af9;
+  border-radius: 4px;
+  background-color: transparent;
+  color: black;
+}

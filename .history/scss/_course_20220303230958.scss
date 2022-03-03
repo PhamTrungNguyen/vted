@@ -1,0 +1,17 @@
+.package{
+    padding-top: 3rem;
+   
+}
+.course{
+    margin-top: 2rem;
+    background-color: #f7f7ff;
+    &-item{
+
+    }
+    &-image img{
+        width: 270px;
+        height: 150px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+}

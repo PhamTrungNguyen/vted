@@ -1,0 +1,44 @@
+.package {
+  padding-top: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+}
+.course {
+  padding: 0.6rem;
+  &-list {
+    padding-bottom: 2rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+  }
+  margin-top: 2rem;
+  background-color: #f7f7ff;
+  &-item {
+    background-color: #fff;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  &-image img {
+    width: 270px;
+    height: 150px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  &-image{
+      padding-bottom: 1rem;
+  }
+  &-content {
+    &_text {
+      padding: 0.5px;
+      background-color: #eaf4fe;
+    }
+    &_link {
+      display: inline-block;
+    }
+  }
+}

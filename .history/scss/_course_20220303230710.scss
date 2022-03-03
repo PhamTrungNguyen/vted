@@ -1,0 +1,22 @@
+.package{
+    padding-top: 5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+}
+.course{
+    background-color: #f7f7ff;
+    &-item{
+
+    }
+    &-image img{
+        width: 270px;
+        height: 150px;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+    }
+}
