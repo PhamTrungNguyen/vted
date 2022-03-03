@@ -20,7 +20,9 @@
 		 font-size: 40%;
 	}
 }
-
+.slider{
+    padding-top: 15rem;
+}
  .inner, .nav-panel ul .nav-btn:after {
 	 content: "";
 	 position: absolute;
@@ -35,7 +37,7 @@
  .page {
 	 z-index: 1;
 	 position: absolute;
-	 top: 10rem;
+	 top: 12rem;
 	 left: 0;
 	 width: 100%;
 	 height: 50vh;
@@ -43,28 +45,28 @@
 	 will-change: transform, opacity;
 }
  .page:nth-child(1) .left {
-	 background: url('https://res.cloudinary.com/tuanpham/image/upload/v1646235131/oikmcjnrex1xzrsupca2.jpg') no-repeat center / cover;
+	 background-image: url('https://res.cloudinary.com/tuanpham/image/upload/v1646235131/oikmcjnrex1xzrsupca2.jpg');
 }
  .page:nth-child(1) .right {
-	 background: url('https://res.cloudinary.com/tuanpham/image/upload/v1646233276/waqj4ypw6faxttqk41pj.png') no-repeat center / cover;
+	 background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/onepgscr-2.jpg');
 }
  .page:nth-child(2) .left {
-	 background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/onepgscr-3.jpg') no-repeat center / cover;
+	 background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/onepgscr-3.jpg');
 }
  .page:nth-child(2) .right {
-	 background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/onepgscr-4.jpg') no-repeat center / cover;
+	 background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/onepgscr-4.jpg');
 }
  .page:nth-child(3) .left {
-	 background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/onepgscr-5.jpg') no-repeat center / cover;
+	 background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/onepgscr-5.jpg');
 }
  .page:nth-child(3) .right {
-	 background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/onepgscr-6.jpg') no-repeat center / cover;
+	 background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/onepgscr-6.jpg');
 }
  .page:nth-child(4) .left {
-	 background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/onepgscr-7.jpg') no-repeat center / cover;
+	 background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/onepgscr-7.jpg');
 }
  .page:nth-child(4) .right {
-	 background: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/onepgscr-8.jpg') no-repeat center / cover;
+	 background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/onepgscr-8.jpg');
 }
  .page.active {
 	 z-index: 5;
