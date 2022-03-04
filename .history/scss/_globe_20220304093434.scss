@@ -1,0 +1,27 @@
+.text {
+  text-align: center;
+  color: #f44336;
+  background-color: #f4433669;
+  font-size: 17px;
+  padding: 0.5rem;
+  font-weight: 600;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+}
+.title {
+  font-weight: 600;
+  font-size: 26px;
+}
+.button1{
+    padding: 0.7rem 1rem;
+    outline: none;
+    background-color: #f44336;
+    border: 0 solid #000;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: 600;
+    cursor: pointer;
+    &:hover{
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    }
+}
