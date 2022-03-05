@@ -818,8 +818,7 @@ body {
 }
 
 .categories {
-  padding: 2rem 4rem;
-  padding-top: 5rem;
+  padding: 7rem 4rem 4rem 4rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1061,7 +1060,7 @@ body {
   }
 }
 .package {
-  padding-top: 3rem;
+  padding-top: 2rem;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -1239,11 +1238,10 @@ body {
   }
 }
 .exam {
-  padding: 2rem 4rem;
+  padding: 5rem 4rem;
   background-color: #fefefe;
 }
 .exam-list {
-  padding-bottom: 2rem;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -1369,7 +1367,7 @@ body {
   }
 }
 .registration {
-  padding-bottom: 4rem;
+  padding: 3rem 4rem;
   background-color: #f7f7ff;
 }
 .registration-list {
@@ -1444,7 +1442,7 @@ body {
   }
 }
 .member {
-  padding-bottom: 5rem;
+  padding: 3rem 4rem;
   background-color: #fefefe2c;
 }
 .member-list {
