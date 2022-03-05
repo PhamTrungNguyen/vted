@@ -1,0 +1,45 @@
+.registration{
+    padding-bottom: 4rem;
+    background-color: #f7f7ff;
+    &-list{
+        padding: 2rem;
+        gap: 30px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    &-item{
+        width: 100%;
+        padding: 4rem 4rem;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        border-radius:1rem;
+        &_icon{
+            font-size: 25px;
+            background-color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width:4rem;
+            height:4rem;
+            border-radius:50%;
+            background-color: white;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+            margin-bottom: 2rem;
+        }
+        &_title{
+            font-size: 25px;
+            color:#233d63;
+            margin-bottom: 2rem;
+        }
+        &_desc{
+            text-align: center;
+            color:#61748f;
+            font-size: 18px;
+        }
+
+    }
+}

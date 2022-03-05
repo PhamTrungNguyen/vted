@@ -1,0 +1,7 @@
+.registration{
+    padding-bottom: 4rem;
+    &-list{
+        display: grid;
+        grid-template-columns: repeat(3,1fr)
+    }
+}

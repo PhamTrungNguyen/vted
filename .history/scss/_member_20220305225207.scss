@@ -1,0 +1,67 @@
+.member {
+  padding-bottom: 5rem;
+  background-color: #fefefe2c;
+  &-list {
+    padding: 2rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+  }
+  &-item {
+    padding: 2rem;
+    border-radius: 1rem;
+    box-shadow: rgba(99, 99, 99, 0.541) 0px 2px 8px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    border: 2px solid transparent;
+    transition: all 0.25s linear;
+    &_image img {
+      width: 5rem;
+      height: 5rem;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+    &_name {
+      margin-top: 1.5rem;
+      margin-bottom: 1rem;
+      text-align: center;
+    }
+    &_phone {
+      color: #717e8b;
+      font-size: 16px;
+      margin-bottom: 1rem;
+    }
+    &_button a {
+      color: white;
+    }
+    &:hover {
+      border: 2px solid #000;
+    }
+  }
+}
+@media screen and (max-width: 1023px) {
+  .member-list {
+    grid-template-columns: 1fr 1fr;
+  }
+  .member-item {
+    padding: 1rem;
+  }
+  .member-item_image img {
+    width: 7rem;
+    height: 7rem;
+  }
+  .member-item_name {
+    font-size: 30px;
+  }
+  .member-item_phone {
+    font-size: 25px;
+  }
+}
+@media  screen and (max-width:767px){
+    .member-list {
+        grid-template-columns: 1fr;
+      }
+}

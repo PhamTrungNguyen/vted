@@ -1,0 +1,17 @@
+.registration{
+    padding-bottom: 4rem;
+    &-list{
+        padding-top: 2rem;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        gap: 30px;
+    }
+    &-item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+
+    }
+}

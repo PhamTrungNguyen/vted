@@ -1,0 +1,26 @@
+.registration{
+    padding-bottom: 4rem;
+    background-color: #f7f7ff;
+    &-list{
+        padding-top: 2rem;
+        gap: 30px;
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+    }
+    &-item{
+        padding: 2rem;
+        background-color: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: column;
+        &_icon{
+            width:5rem;
+            height:5rem;
+            background-color: red;
+            box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        }
+
+    }
+}

@@ -1,0 +1,29 @@
+.member{
+    padding-bottom: 5rem;
+    background-color: #fefefe;
+    &-list{
+        padding-top: 2rem;
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 30px;
+    }
+    &-item{
+        padding: 2rem;
+        border-radius:1rem;
+        box-shadow: rgba(99, 99, 99, 0.541) 0px 2px 8px 0px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: column;    
+        &_image img{
+            width:5rem;
+            height:5rem;
+            border-radius:50%;
+            object-fit: cover;
+        }
+        &_name{
+            margin-top: 1.5rem;
+        }
+    }
+}

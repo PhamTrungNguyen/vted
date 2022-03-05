@@ -1,0 +1,21 @@
+.member{
+    padding-bottom: 5rem;
+    background-color: #eee;
+    &-list{
+        display: grid;
+        grid-template-columns: repeat(4,1fr)
+    }
+    &-item{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: nowrap;
+        flex-direction: column;    
+        &_image img{
+            width:5rem;
+            height:5rem;
+            border-radius:50%;
+            object-fit: cover;
+        }
+    }
+}
