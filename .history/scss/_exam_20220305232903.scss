@@ -1,5 +1,5 @@
 .exam {
-  padding: 2rem 4rem;
+  padding: 2rem;
   background-color: #fefefe;
   &-list {
     padding-bottom: 2rem;
@@ -11,9 +11,6 @@
   .exam-item2 {
     padding: 1rem;
     border-bottom: 1px solid #ccc;
-  }
-  &-left{
-    margin-right: 2rem;
   }
   &-left,
   .exam-right {
@@ -89,7 +86,6 @@
   .exam-left,
   .exam-right {
     max-width: 100% !important;
-    margin-bottom: 2rem;
   }
   .exam-post {
     justify-content: center;
@@ -101,24 +97,6 @@
   }
 }
 @media  screen and (max-width:767px){
-  .exam-list {
-    padding: 2rem 1rem;
-  }
-  .exam-item1_content {
-    font-size: 16px;
-  }
-  .exam-item1_title {
-    font-size: 16px;
-  }
-  .exam-item1_desc {
-    font-size: 12px;
-  }
-  .exam-left, .exam .exam-right {
-    margin-bottom: 2rem;
-}
-  .exam-item1,
-  .exam .exam-item2 {
-    margin-bottom: 1rem;
-  }
+  
 
 }
