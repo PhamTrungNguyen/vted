@@ -1,0 +1,12 @@
+.exam{
+    &-list{
+        display: flex;
+        flex-direction: row;
+    }
+    &-item1_image .exam img{
+        &{
+            width:85px;
+            height:40px;
+        }
+    }
+}

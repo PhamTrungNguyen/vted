@@ -1,0 +1,20 @@
+.exam {
+  margin-bottom: 5rem;
+  padding: 1rem;
+  background-color: #eeeeee;
+  &-list {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  &-item_image img {
+    width: 85px;
+    height: 40px;
+  }
+  
+  &-item1, .exam-item2 {
+    max-width: 570px;
+    background-color: white;
+  }
+}
+

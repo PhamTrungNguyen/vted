@@ -1,0 +1,20 @@
+.exam {
+  margin-bottom: 5rem;
+  justify-content: space-between;
+  background-color: #eeeeee;
+  &-list {
+    display: flex;
+    flex-direction: row;
+  }
+  &-item_image img {
+    width: 85px;
+    height: 40px;
+  }
+  &-item2{
+      margin-left: 2rem;
+      background-color: white ;
+  }
+  &-item1 {
+      background-color: white ;
+  }
+}

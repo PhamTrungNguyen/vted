@@ -1,0 +1,16 @@
+.exam {
+  margin-bottom: 5rem;
+  justify-content: space-between;
+  background-color: #f7f7ff;
+  &-list {
+    display: flex;
+    flex-direction: row;
+  }
+  &-item_image img {
+    width: 85px;
+    height: 40px;
+  }
+  &-item1.exam-item2{
+      background-color: #fff;
+  }
+}
