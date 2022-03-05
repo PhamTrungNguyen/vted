@@ -35,9 +35,7 @@
 @media screen and (max-width: 767px) {
   .page {
     top: 16.1rem !important;
-  }
-  .slider {
-    display: none;
+    opacity: 0;
   }
   .text-field input {
     padding: 5px;
