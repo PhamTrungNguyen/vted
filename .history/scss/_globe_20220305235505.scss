@@ -35,13 +35,18 @@
 }
 @media screen and (max-width: 767px) {
   .button1 {
-    width: 20rem;
-    height:7rem;
+    padding: 2rem;
     font-size: 20px;
   }
   .button {
     margin-top: 3rem;
   }
+  .course-image:hover .course-button {
+    bottom: 0 !important;
+    transform: translate(-50%, -50%);
+    opacity: 1;
+    z-index: 99;
+}
 }
 @media screen and (max-width: 1023px) {
   .snip0025 h2 {
