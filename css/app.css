@@ -483,6 +483,10 @@ body {
     font-size: 40%;
   }
 }
+.slider {
+  display: none;
+}
+
 @media screen and (max-width: 1279px) {
   .page {
     width: 100% !important;
