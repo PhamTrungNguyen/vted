@@ -1,5 +1,6 @@
 .footer {
   padding: 7rem 4rem;
+  background-color: #282A35;
   &-list {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -9,7 +10,7 @@
     cursor: pointer;
     &_title {
       cursor: pointer;
-      color: #2b3f63;
+      color: #fff;
       margin-bottom: 2rem;
     }
   }
@@ -18,9 +19,13 @@
   cursor: pointer;
   color: black;
 }
+
+.link i {
+  color: #fff;
+}
 .item1 {
   cursor: pointer;
-  color: #818898;
+  color: #fff;
   display: block;
   margin-bottom: 1rem;
   transition: all 0.25s linear;

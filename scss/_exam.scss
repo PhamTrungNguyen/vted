@@ -1,6 +1,7 @@
 .exam {
-  padding: 5rem 4rem;
-  background-color: #fefefe;
+  padding: 3rem 5rem;
+  background-color: #282A35;
+
   &-list {
     display: flex;
     flex-direction: row;
@@ -19,7 +20,8 @@
     padding: 1rem;
     max-width: 570px;
     border-radius: 10px;
-    box-shadow: rgba(99, 99, 99, 0.788) 0px 2px 8px 0px;
+    box-shadow: #fff 0px 2px 2px 0px;
+    background-color: #fff;
   }
   &-title {
     display: block;

@@ -1,11 +1,18 @@
 .categories {
-  padding: 7rem  4rem 4rem 4rem ;
+  padding: 3rem 5rem;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: nowrap;
   flex-direction: column;
-  background-color: #fefefe;
+  background: #282A35;
+  &-text {
+    background: #04AA6D;
+    color: #fff;
+  }
+  &-title {
+    color: #fff;
+  }
   &-list {
     padding-top: 1rem;
     display: grid;

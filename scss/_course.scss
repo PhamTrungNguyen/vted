@@ -51,7 +51,7 @@
   }
 }
 .course {
-  padding: 2rem 5rem;
+  padding: 1rem 5rem;
   &-list {
     padding-top: 1rem;
     padding-bottom: 2rem;
@@ -59,7 +59,7 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 30px;
   }
-  background-color: #f7f7ff;
+  background-color: #fff;
   &-item {
     background-color: #fff;
     border-top-left-radius: 8px;
