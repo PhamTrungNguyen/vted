@@ -1,0 +1,17 @@
+.admin{
+    background-color: #f7f7ff;
+    &-item{
+         position: relative;
+        &_image img{
+            width:250px;
+            height:400px;
+            object-fit: cover;
+        }
+        &_content{
+            text-align: center;
+             position: absolute;
+             top: 50%;
+             transform: translateY(-50%);
+        }
+    }
+}

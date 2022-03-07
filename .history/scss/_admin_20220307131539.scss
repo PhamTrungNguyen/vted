@@ -1,0 +1,29 @@
+.admin {
+  background-color: #f7f7ff;
+  &-list{
+      display: flex;
+  }
+  &-item {
+    position: relative;
+    &_image img {
+      width: 250px;
+      height: 400px;
+      object-fit: cover;
+    }
+    &_name{
+        width: 200px;
+    }
+    &_content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: nowrap;
+      flex-direction: column;
+      position: absolute;
+      text-align: center;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+    }
+  }
+}

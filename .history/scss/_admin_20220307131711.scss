@@ -1,0 +1,39 @@
+.admin {
+    padding: 7rem 5rem;
+  background-color: #f7f7ff;
+  &-list{
+      display: flex;
+  }
+  &-item {
+    position: relative;
+    &_shadow{
+         position: absolute;
+         top: 0;
+         left: 0;
+         z-index: 99;
+        background-color: red;
+    }
+    &_image img {
+      width: 250px;
+      height: 400px;
+      object-fit: cover;
+      z-index: -2;
+    }
+    &_name{
+        width: 200px;
+        color:white;
+    }
+    &_content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: nowrap;
+      flex-direction: column;
+      position: absolute;
+      text-align: center;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+    }
+  }
+}

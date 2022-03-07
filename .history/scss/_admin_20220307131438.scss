@@ -1,0 +1,25 @@
+.admin {
+  background-color: #f7f7ff;
+  &-list{
+      display: flex;
+  }
+  &-item {
+    position: relative;
+    &_image img {
+      width: 250px;
+      height: 400px;
+      object-fit: cover;
+    }
+    &_content {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: nowrap;
+      flex-direction: column;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+    }
+  }
+}

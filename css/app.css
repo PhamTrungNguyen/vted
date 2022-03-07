@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
@@ -1550,6 +1551,144 @@ body {
     font-size: 16px;
     margin-bottom: 4rem;
   }
+}
+.admin {
+  padding: 7rem 0rem;
+  background-color: #f7f7ff;
+}
+.admin-list {
+  padding: 3rem 0;
+  position: relative;
+}
+.admin-item {
+  position: relative;
+  height: 380px;
+}
+.admin-item_shadow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+  background-color: rgba(0, 0, 0, 0.288);
+}
+.admin-item_image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -2;
+}
+.admin-item_name {
+  width: 200px;
+  color: white;
+  margin-bottom: 1rem;
+  font-size: 20px;
+}
+.admin-item_address {
+  margin-bottom: 1rem;
+}
+.admin-item_button {
+  opacity: 0;
+  width: 6rem !important;
+  height: 2rem !important;
+  border-radius: 1rem !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  background-color: #f44336 !important;
+  transition: all 0.25s linear;
+}
+.admin-item_button a {
+  color: white;
+}
+.admin-item:hover .admin-item_button {
+  opacity: 1;
+}
+.admin-item:hover .admin-item_content {
+  transform: translate(-50%, -50%);
+}
+.admin-item_content {
+  transition: all 0.25s linear;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: column;
+  position: absolute;
+  text-align: center;
+  z-index: 9;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+}
+
+.slick-track {
+  display: flex;
+}
+
+.slick-slider {
+  overflow: hidden;
+}
+
+.slick-prev,
+.slick-next {
+  position: absolute;
+  top: 50%;
+  z-index: 99;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  background-color: white;
+  border: 0 solid #000;
+  color: black;
+  font-size: 18px;
+}
+.slick-prev:hover,
+.slick-next:hover {
+  background-color: rgba(255, 0, 0, 0.808);
+  color: white;
+}
+
+.slick-prev {
+  left: 1rem;
+}
+
+.slick-next {
+  right: 1rem;
+}
+
+.slick-dots {
+  /* css cục slick */
+  display: flex !important;
+  align-items: center;
+  gap: 0 15px;
+  list-style-type: none;
+  position: absolute;
+  border: 0 solid #000;
+  outline: none;
+  left: 15px;
+}
+.slick-dots button {
+  width: 15px;
+  height: 15px;
+  background-color: #dde0e4;
+  border-radius: 100rem;
+  font-size: 0;
+  border: 0 solid #000;
+  outline: none;
+  transition: all 0.25s linear;
+}
+
+.slick-active {
+  /* css cục slick khi được chọn */
+}
+.slick-active button {
+  width: 15px;
+  height: 15px;
+  background-color: red;
+  border-radius: 2rem;
 }
 
 /*# sourceMappingURL=app.css.map */

@@ -1,0 +1,9 @@
+.admin{
+    background-color: #f7f7ff;
+    &-item{
+        &_image img{
+            width:;
+            height:;
+        }
+    }
+}

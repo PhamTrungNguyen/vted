@@ -1,0 +1,11 @@
+.admin{
+    background-color: #f7f7ff;
+    &-item{
+         position: relative;
+        &_image img{
+            width:250px;
+            height:400px;
+            object-fit: cover;
+        }
+    }
+}
