@@ -38,7 +38,9 @@
     z-index: 99;
   }
 }
-
+.fa, .fab, .fad, .fal, .far, .fas {
+  display: flex !important;
+}
 .course-button {
   position: absolute;
   bottom: 0;

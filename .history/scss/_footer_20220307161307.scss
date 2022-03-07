@@ -1,0 +1,17 @@
+.footer{
+    padding: 7rem 4rem;
+    &-list{
+        display: grid;
+        grid-template-columns: repeat(4,1fr);
+        gap: 30px;
+    }
+    &-item1{
+        &_title{
+            color:#2b3f63;
+            margin-bottom: 2rem;
+        }
+    }
+}
+.item1{
+    color:#818898;
+}

@@ -7,7 +7,7 @@
   }
   &-item {
     position: relative;
-    height: 380px;
+    height:380px;
     &_shadow {
       position: absolute;
       top: 0;
@@ -35,9 +35,9 @@
     }
     &_button {
       opacity: 0;
-      width: 6rem !important;
-      height: 2rem !important;
-      border-radius: 1rem !important;
+      width: 6rem!important;
+      height: 2rem!important;
+      border-radius:1rem !important;
       display: flex;
       justify-content: center;
       align-items: center;
@@ -135,19 +135,18 @@
     border-radius: 2rem;
   }
 }
-@media screen and (max-width: 767px) {
+@media  screen and (max-width:767px){
   .admin-item_button {
+
     width: 19rem !important;
     height: 6rem !important;
   }
-
   .admin-item_name {
-    width: 260px;
     margin-bottom: 3rem;
     font-size: 26px;
-  }
-  .admin-item_address {
-    margin-bottom: 3rem;
-    font-size: 25px;
-  }
+}
+.admin-item_address {
+  margin-bottom: 3rem;
+  font-size: 25px;
+}
 }

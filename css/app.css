@@ -1414,6 +1414,8 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
+  padding-right: 1rem;
   width: 4rem;
   height: 4rem;
   border-radius: 50%;
@@ -1689,6 +1691,81 @@ body {
   height: 15px;
   background-color: red;
   border-radius: 2rem;
+}
+
+@media screen and (max-width: 767px) {
+  .admin-item_button {
+    width: 19rem !important;
+    height: 6rem !important;
+  }
+
+  .admin-item_name {
+    width: 260px;
+    margin-bottom: 3rem;
+    font-size: 26px;
+  }
+
+  .admin-item_address {
+    margin-bottom: 3rem;
+    font-size: 25px;
+  }
+}
+.footer {
+  padding: 7rem 4rem;
+}
+.footer-list {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+.footer-item1 {
+  cursor: pointer;
+}
+.footer-item1_title {
+  cursor: pointer;
+  color: #2b3f63;
+  margin-bottom: 2rem;
+}
+
+.link {
+  cursor: pointer;
+  color: black;
+}
+
+.item1 {
+  cursor: pointer;
+  color: #818898;
+  display: block;
+  margin-bottom: 1rem;
+  transition: all 0.25s linear;
+}
+.item1:hover {
+  color: red;
+}
+
+.fa-solid {
+  position: relative;
+  padding-left: 1rem;
+  font-size: 25px;
+}
+
+.fa-brands {
+  font-size: 25px;
+}
+
+@media screen and (max-width: 767px) {
+  .footer-list {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .footer-item1_title {
+    font-size: 20px;
+  }
+
+  .item1 {
+    margin-bottom: 1.5rem;
+    font-size: 15px;
+  }
 }
 
 /*# sourceMappingURL=app.css.map */
