@@ -53,10 +53,10 @@
 .course.active {
   opacity: 1;
   visibility: inherit;
+  transition: all 0.6s linear;
 }
 .course {
   transition: all 0.6s linear;
-  transition-delay: 0.3s;
   visibility: hidden;
   opacity: 0;
   padding: 1rem 5rem;
