@@ -52,12 +52,13 @@
 }
 .course.active {
   opacity: 1;
+  width: 100%;
   visibility: inherit;
 }
 .course {
   transition: all 0.4s linear;
+  width: 0;
   visibility: hidden;
-  opacity: 0;
   padding: 1rem 5rem;
   &-list {
     padding-top: 1rem;

@@ -56,8 +56,8 @@
 }
 .course {
   transition: all 0.4s linear;
-  visibility: hidden;
   opacity: 0;
+  visibility: hidden;
   padding: 1rem 5rem;
   &-list {
     padding-top: 1rem;

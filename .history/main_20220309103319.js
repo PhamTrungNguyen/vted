@@ -14,47 +14,31 @@ function debounceFn(func, wait, immediate) {
   };
 }
 window.addEventListener("load", function () {
-  const progress = document.querySelector(".progress");
-  window.addEventListener("scroll", function (e) {
-    const scrollTop = window.pageYOffset; // kc từ đỉnh scroll tới top
-    // console.log(scrollTop)
-
-    const height =
-      document.documentElement.scrollHeight -
-      document.documentElement.clientHeight;
-    // giá trị của element có scroll -  giá trị viewport
-    //  height : tổng phần còn lại của scroll
-
-    console.log(document.documentElement.clientHeight);
-    const width = (scrollTop / height) * 100;
-    // width = kc từ scroll tới top(tđ liên tục) / tổng phần còn lại
-    // console.log(height) //
-    // console.log(width) //
-    progress.style.width = `${width}%`; // tđ width theo %
-  });
+ 
   /* header */
   const course = document.querySelector(".course");
   const exam = document.querySelector(".exam");
   const registration = document.querySelector(".registration");
   const member = document.querySelector(".member");
   const comment = document.querySelector(".comment");
-  let x = 0,
-    x1 = 0,
-    x2 = 0,
-    x3 = 0,
-    x4 = 0;
+  let x = 0,x1=0,x2=0,x3=0,x4=0;
   window.addEventListener("scroll", function (e) {
     let top = window.pageYOffset;
-    x = course.offsetTop - course.offsetHeight / 2;
-    if (top > x) course.classList.add("active");
-    x1 = exam.offsetTop - exam.offsetHeight / 2;
-    if (top > x1) exam.classList.add("active");
-    x2 = registration.offsetTop - registration.offsetHeight / 2;
-    if (top > x2) registration.classList.add("active");
-    x3 = member.offsetTop - member.offsetHeight / 2;
-    if (top > x3) member.classList.add("active");
-    x4 = comment.offsetTop - comment.offsetHeight / 2;
-    if (top > x4) comment.classList.add("active");
+    x = course.offsetTop - course.offsetHeight/2;
+    if(top > x )
+    course.classList.add("active");
+    x1 = exam.offsetTop - exam.offsetHeight/2;
+    if(top > x1 )
+    exam.classList.add("active");
+    x2 = registration.offsetTop - registration.offsetHeight/2;
+    if(top > x2 )
+    registration.classList.add("active");
+    x3 = member.offsetTop - member.offsetHeight/2;
+    if(top > x3 )
+    member.classList.add("active");
+    x4 = comment.offsetTop - comment.offsetHeight/2;
+    if(top > x4 )
+    comment.classList.add("active");
   });
   /* --------------------- Phần comment --------------------- */
   $(".comment-list").slick({

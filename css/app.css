@@ -206,6 +206,16 @@ table {
     top: 65% !important;
   }
 }
+.progress {
+  width: 0%;
+  height: 4px;
+  background-color: black;
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-radius: 2px;
+}
+
 .header {
   padding: 0.6rem;
   background-image: linear-gradient(to right, #2196f3, #f44336);
@@ -827,6 +837,7 @@ body {
 }
 
 .categories {
+  transition: all 0.25s linear;
   padding: 3rem 5rem;
   display: flex;
   justify-content: center;
@@ -1142,7 +1153,15 @@ body {
   color: white;
 }
 
+.course.active {
+  opacity: 1;
+  visibility: inherit;
+}
+
 .course {
+  transition: all 0.4s linear;
+  visibility: hidden;
+  opacity: 0;
   padding: 1rem 5rem;
   background-color: #fff;
 }
@@ -1269,7 +1288,15 @@ body {
     font-size: 20px;
   }
 }
+.exam.active {
+  opacity: 1;
+  visibility: inherit;
+}
+
 .exam {
+  opacity: 0;
+  transition: all 0.4s linear;
+  visibility: hidden;
   padding: 3rem 5rem;
   background-color: #282A35;
 }
@@ -1399,7 +1426,15 @@ body {
     margin-bottom: 1rem;
   }
 }
+.registration.active {
+  opacity: 1;
+  visibility: inherit;
+}
+
 .registration {
+  transition: all 0.4s linear;
+  visibility: hidden;
+  opacity: 0;
   padding: 1rem 5rem;
   background-color: #fff;
 }
@@ -1476,7 +1511,15 @@ body {
     font-size: 23px;
   }
 }
+.member.active {
+  opacity: 1;
+  visibility: inherit;
+}
+
 .member {
+  transition: all 0.4s linear;
+  visibility: hidden;
+  opacity: 0;
   padding: 1rem 5rem;
   background-color: #282A35;
 }
@@ -1731,7 +1774,15 @@ body {
     font-size: 25px;
   }
 }
+.comment.active {
+  opacity: 1;
+  visibility: inherit;
+}
+
 .comment {
+  transition: all 0.4s linear;
+  visibility: hidden;
+  opacity: 0;
   padding: 5rem 4rem;
 }
 .comment-item {
@@ -1786,6 +1837,30 @@ body {
   color: white;
 }
 
+.slick-prev,
+.slick-next {
+  display: none !important;
+}
+
+@media screen and (max-width: 1023px) {
+  .comment-item {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 767px) {
+  .comment-content_name {
+    font-size: 10px;
+  }
+
+  .comment-content_desc {
+    font-size: 10px;
+  }
+
+  .comment-button {
+    margin: 1rem;
+    width: 25rem;
+  }
+}
 .footer {
   padding: 7rem 4rem;
   background-color: #282A35;
