@@ -1,6 +1,6 @@
 window.addEventListener("load", function () {
   /* --------------------- Phần comment --------------------- */
-  $('.comment-list').slick({
+  $('.one-time').slick({
     dots: true,
     infinite: true,
     speed: 300,

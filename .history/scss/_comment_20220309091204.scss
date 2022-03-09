@@ -1,0 +1,17 @@
+.comment {
+    padding: 5rem 4rem ;
+  &-item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+  }
+  &-content {
+      padding: 2rem;
+      box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    &_image img {
+      width: 5rem;
+      height: 5rem;
+      border-radius: 50%;
+    }
+  }
+}

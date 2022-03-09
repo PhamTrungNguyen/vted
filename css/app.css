@@ -1731,6 +1731,61 @@ body {
     font-size: 25px;
   }
 }
+.comment {
+  padding: 5rem 4rem;
+}
+.comment-item {
+  padding: 2rem 1rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+  grid-auto-rows: auto;
+  transition: all 0.4s linear;
+}
+.comment-content {
+  display: grid;
+  grid-auto-rows: auto;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 1rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.comment-content_image img {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+}
+.comment-content_user {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+.comment-content_text {
+  margin-left: 1rem;
+}
+.comment-content_name {
+  font-weight: 600;
+  font-size: 16px;
+  margin-bottom: 0.5rem;
+}
+.comment-content_address {
+  color: #838eb1;
+}
+
+.slick-dots {
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.comment-button {
+  margin: 1rem;
+}
+.comment-button a {
+  color: white;
+}
+
 .footer {
   padding: 7rem 4rem;
   background-color: #282A35;

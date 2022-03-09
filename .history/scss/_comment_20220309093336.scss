@@ -1,0 +1,41 @@
+.comment {
+  padding: 5rem 4rem;
+  &-item {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    grid-auto-rows: auto;
+     transition: all 0.25s linear;
+  }
+  &-content {
+      display: grid;
+    grid-auto-rows: auto;
+    cursor: pointer;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    &_image img {
+      width: 4rem;
+      height: 4rem;
+      border-radius: 50%;
+    }
+    &_user {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: nowrap;
+      flex-direction: row;
+    }
+    &_text {
+      margin-left: 1rem;
+    }
+    &_name {
+      font-weight: 600;
+      font-size: 16px;
+      margin-bottom: 0.5rem;
+    }
+    &_address {
+      color: #838eb1;
+    }
+  }
+}
