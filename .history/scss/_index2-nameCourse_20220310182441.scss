@@ -1,0 +1,14 @@
+.link-course{
+    display: flex;
+    align-items: center;
+    &_content{
+        display: flex;
+        align-items: center;
+        i{
+            font-size: 16px;
+        }
+    }
+}
+.nameCourse{
+
+}

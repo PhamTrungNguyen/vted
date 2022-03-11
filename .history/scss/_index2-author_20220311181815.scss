@@ -1,0 +1,15 @@
+.author{
+    padding: 1rem 3rem;
+    &-name{
+        font-weight: 600;
+        font-size: 23px;
+    }
+    &-information{
+        &_image img{
+            width:5rem;
+            height:5rem;
+            object-fit: cover;
+            border-radius:50%;
+        }
+    }
+}

@@ -1,0 +1,50 @@
+.buying {
+  margin-top: 1rem;
+  background-color: #fff;
+  border-radius: 0.7rem;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+  &-price {
+    margin-bottom: 1rem;
+  }
+  &-price_50 {
+    display: inline-block;
+    margin-left: 1rem;
+    color: #f44336;
+  }
+  &-information {
+    margin-bottom: 1rem;
+  }
+  &-item {
+    display: flex;
+    flex-direction: column;
+    justify-self: start;
+    margin-left: -1rem;
+    &_text {
+      margin-bottom: 7px;
+      i {
+        margin-right: 1rem;
+        font-size: 15px;
+        color:#77c459;
+      }
+    }
+  }
+  &-add{
+      margin-bottom: 1rem;
+      padding: 8px 0;
+       transition: all 0.25s linear;
+      background-color: #fff;
+      box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+      border: 1px solid #3e90f7;
+      color:#3e90f7;
+      i{
+          font-size: 15px;
+        }
+        &:hover{
+          border: 1px solid black;
+          color:black;
+
+      }
+  }
+}

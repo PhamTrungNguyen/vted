@@ -1,0 +1,15 @@
+.customer{
+    margin-top: 2rem;
+    padding: 7px;
+    &-buy{
+        display: flex;
+        align-items: center;
+        background-color: #e74c3c;
+        border-top-right-radius:7px;
+        border-top-left-radius:7px;
+        i{
+            margin-right: 1rem;
+            color:#f1c40f;
+        }
+    }
+}

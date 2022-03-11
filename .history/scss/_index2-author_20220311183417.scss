@@ -1,0 +1,43 @@
+.author{
+    background-color: #fff;
+    padding: 1rem 1rem;
+    border-radius:0.7rem;
+    &-name{
+        font-weight: 600;
+        font-size: 23px;
+        
+    }
+    &-information{
+        display: flex;
+        align-items: center;
+        margin-bottom: 1rem;
+        &_image img{
+            width:3rem;
+            height:3rem;
+            object-fit: cover;
+            border-radius:50%;
+        }
+        &_content{
+            margin-left: 7px;
+        }
+        &_name{
+            font-size: 16px;
+            margin-bottom: 5px;
+        }
+        &_link {
+            color: #3e90f7;
+        }
+    }
+    &-desc{
+        &_text {
+            display: inline-block;
+            font-size: 14px;
+            color:#677480;
+            margin-bottom: 1rem;
+            a{
+                display: inline;
+                color: #3e90f7;
+            }
+        }
+    }
+}

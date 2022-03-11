@@ -1,0 +1,8 @@
+.buying{
+    display: flex;
+    flex-direction: column;
+    &-price_50{
+        display: inline-block;
+        padding-left: 1rem;
+    }
+}

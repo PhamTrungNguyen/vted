@@ -1,0 +1,24 @@
+.link-course {
+  display: flex;
+  align-items: center;
+  padding: 1rem 3rem;
+  &_content {
+    display: flex;
+    align-items: center;
+    color: #3e90f7;
+    margin-right: 2rem;
+     transition: all 0.25s linear;
+    i {
+      font-size: 17px;
+    }
+    &:hover {
+      a,
+      i {
+        color: black;
+      }
+    }
+  }
+}
+.nameCourse {
+    padding: 5rem 3rem;
+}

@@ -1,0 +1,24 @@
+.detailCourse {
+  margin-top: 1rem;
+  padding: 2rem 1rem;
+  background-color: #fff;
+  border-radius: 1rem;
+  &-title {
+    position: relative;
+    font-weight: 600;
+    font-size: 23px;
+    padding-bottom: 1rem;
+    margin-bottom: 1rem;
+    border-bottom: 1px solid #9e9a9afb;
+    z-index: 3;
+    &:after {
+      content: " ";
+      width: 25%;
+      border-bottom: 1px solid #016df1;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      z-index: 2;
+    }
+  }
+}

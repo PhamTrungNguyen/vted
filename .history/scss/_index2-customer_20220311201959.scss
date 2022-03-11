@@ -1,0 +1,25 @@
+.customer {
+  margin-top: 2rem;
+  &-buy {
+    display: flex;
+    padding: 7px;
+    align-items: center;
+    background-color: #e74c3c;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+    i {
+      margin-right: 1rem;
+      color: #f1c40f;
+    }
+  }
+  &-list {
+    padding: 7px;
+    i{
+        display: inline-block;
+    }
+    p{
+        
+        display: inline-block;
+    }
+  }
+}

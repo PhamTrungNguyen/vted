@@ -1,0 +1,19 @@
+.support{
+    margin-top: 2rem;
+    background-color: #fff;
+    &-phone{
+        background-color: #4765a0;
+        a{
+            font-size: 16px;
+        }
+    }
+    &-image img{
+        width:4rem;
+        height:4rem;
+        object-fit: cover;
+        border-radius:50%;
+    }
+    &-list{
+        padding: 1rem;
+    }
+}

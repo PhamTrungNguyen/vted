@@ -1,0 +1,20 @@
+.link-course{
+    display: flex;
+    align-items: center;
+    padding: 1rem 3rem;
+    &_content{
+        display: flex;
+        align-items: center;
+        color:#3e90f7;
+        margin-right: 2rem;
+        i{
+            font-size: 17px;
+        }
+        &:hover{
+            color:black;
+        }
+    }
+}
+.nameCourse{
+
+}

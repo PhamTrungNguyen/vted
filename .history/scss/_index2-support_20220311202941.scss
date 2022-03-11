@@ -1,0 +1,13 @@
+.support{
+    margin-top: 2rem;
+    background-color: #fff;
+    &-image img{
+        width:4rem;
+        height:4rem;
+        object-fit: cover;
+        border-radius:50%;
+    }
+    &-list{
+        padding: 1rem;
+    }
+}

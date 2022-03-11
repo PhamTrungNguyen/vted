@@ -1,0 +1,51 @@
+.support {
+  margin-top: 2rem;
+  background-color: #fff;
+  &-phone {
+    background-color: #4765a0;
+    i {
+      font-size: 18px;
+    }
+  }
+  &-image img {
+    width: 4rem;
+    height: 4rem;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+  &-list {
+    padding: 1rem;
+  }
+  &-item {
+    cursor: pointer;
+    margin-bottom: 1rem;
+  }
+  &-content {
+    display: flex;
+    align-items: center;
+    &_2 {
+      margin-left: 1rem;
+      span {
+        display: inline-block;
+        font-weight: 600;
+        margin-bottom: 5px;
+      }
+      h3 {
+        font-size: 17px;
+        margin-bottom: 5px;
+        transition: all 0.25s linear;
+        color: #306dff;
+        &:hover {
+          color: black;
+        }
+      }
+      a {
+        color: #306dff;
+        transition: all 0.25s linear;
+        &:hover {
+          color: black;
+        }
+      }
+    }
+  }
+}

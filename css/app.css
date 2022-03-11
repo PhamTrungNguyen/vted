@@ -182,6 +182,30 @@ table {
   color: black;
 }
 
+/* index2 */
+.index2-button {
+  border-radius: 5px;
+  transition: all 0.25s linear;
+  cursor: pointer;
+  border: 0 solid #000;
+  outline: none;
+  padding: 5px 5rem;
+  background-color: rgba(255, 255, 0, 0.788);
+}
+
+.body {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5f5f5;
+  padding: 0 3rem;
+}
+.body-left {
+  width: 55%;
+}
+.body-right {
+  width: 35%;
+}
+
 @media screen and (max-width: 767px) {
   .button1 {
     width: 20rem;
@@ -1864,6 +1888,331 @@ body {
     width: 25rem;
   }
 }
+.header {
+  padding: 5px 3rem;
+  background-image: linear-gradient(to right, #2196f3, #f44336);
+}
+.header-content {
+  color: white;
+}
+.header-content_title {
+  margin-bottom: 5px;
+}
+.header-button {
+  color: black;
+  font-weight: 600;
+}
+.header-button:hover {
+  color: white;
+}
+
+.link-course {
+  display: flex;
+  align-items: center;
+  padding: 1rem 0;
+}
+.link-course_content {
+  display: flex;
+  align-items: center;
+  color: #3e90f7;
+  margin-right: 2rem;
+  transition: all 0.25s linear;
+}
+.link-course_content i {
+  font-size: 17px;
+}
+.link-course_content:hover a,
+.link-course_content:hover i {
+  color: black;
+}
+
+.nameCourse {
+  padding: 1rem 0;
+  width: 100%;
+}
+.nameCourse-title {
+  line-height: 1.6;
+  margin-bottom: 1rem;
+}
+.nameCourse-detail {
+  margin-bottom: 1rem;
+  color: #7d8993;
+}
+.nameCourse-detail i {
+  color: #77c459;
+  font-size: 17px;
+  margin-right: 4px;
+}
+.nameCourse-detail_Ma h3 {
+  color: #77c459;
+  display: inline;
+}
+.nameCourse-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.author {
+  background-color: #fff;
+  padding: 1rem 1rem;
+  border-radius: 0.7rem;
+}
+.author-name {
+  position: relative;
+  font-weight: 600;
+  font-size: 23px;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #9e9a9afb;
+  z-index: 3;
+}
+.author-name:after {
+  content: " ";
+  width: 32%;
+  border-bottom: 1px solid #016df1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+.author-information {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+.author-information_image img {
+  width: 3rem;
+  height: 3rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.author-information_content {
+  margin-left: 7px;
+}
+.author-information_name {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+.author-information_link {
+  color: #3e90f7;
+}
+.author-desc_text {
+  display: inline-block;
+  font-size: 14px;
+  color: #677480;
+  margin-bottom: 1rem;
+}
+.author-desc_text a {
+  display: inline;
+  color: #3e90f7;
+}
+
+.detailCourse {
+  margin-top: 1rem;
+  padding: 2rem 1rem;
+  background-color: #fff;
+  border-radius: 1rem;
+}
+.detailCourse-title {
+  position: relative;
+  font-weight: 600;
+  font-size: 23px;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #9e9a9afb;
+  z-index: 3;
+}
+.detailCourse-title:after {
+  content: " ";
+  width: 28%;
+  border-bottom: 1px solid #016df1;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: 2;
+}
+.detailCourse-name {
+  text-align: center;
+  font-size: 19px;
+  margin-bottom: 1rem;
+}
+.detailCourse-image img {
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 1rem;
+}
+.detailCourse-desc {
+  line-height: 1.2;
+}
+.detailCourse-desc h3 {
+  display: inline-block;
+}
+.detailCourse-desc span {
+  display: inline-block;
+}
+.detailCourse-content {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+.detailCourse-text {
+  display: block;
+  margin-bottom: 1rem;
+  font-size: 18px;
+}
+
+.buying {
+  margin-top: 1rem;
+  background-color: #fff;
+  border-radius: 0.7rem;
+  padding: 2rem 1rem;
+  display: flex;
+  flex-direction: column;
+}
+.buying-price {
+  margin-bottom: 1rem;
+}
+.buying-price_50 {
+  display: inline-block;
+  margin-left: 1rem;
+  color: #f44336;
+}
+.buying-information {
+  margin-bottom: 1rem;
+}
+.buying-item {
+  display: flex;
+  flex-direction: column;
+  justify-self: start;
+  margin-left: -1rem;
+}
+.buying-item_text {
+  margin-bottom: 7px;
+}
+.buying-item_text i {
+  margin-right: 1rem;
+  font-size: 15px;
+  color: #77c459;
+}
+.buying-add {
+  margin-bottom: 1rem;
+  padding: 8px 0;
+  transition: all 0.25s linear;
+  background-color: #fff;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  border: 1px solid #3e90f7;
+  color: #3e90f7;
+}
+.buying-add i {
+  font-size: 15px;
+}
+.buying-add:hover {
+  border: 1px solid black;
+  color: black;
+}
+.buying-course {
+  padding: 8px 0;
+  background-color: #d9534f;
+  color: white;
+  transition: all 0.25s linear;
+}
+.buying-course:hover {
+  background-color: red;
+  color: black;
+}
+
+.customer {
+  margin-top: 2rem;
+}
+.customer-buy {
+  display: flex;
+  padding: 7px;
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  align-items: center;
+  background-color: #e74c3c;
+  border-top-right-radius: 7px;
+  border-top-left-radius: 7px;
+}
+.customer-buy i {
+  margin-right: 1rem;
+  color: #f1c40f;
+}
+.customer-list {
+  border-bottom-left-radius: 7px;
+  border-bottom-left-radius: 7px;
+  background-color: #fff;
+  padding: 7px;
+}
+.customer-list i {
+  font-size: 16px;
+}
+.customer-list span {
+  color: #d9534f;
+  font-weight: 600;
+}
+.customer-list p {
+  display: inline-block;
+}
+.customer-item {
+  margin-bottom: 10px;
+}
+
+.support {
+  margin-top: 2rem;
+  background-color: #fff;
+}
+.support-phone {
+  background-color: #4765a0;
+}
+.support-phone i {
+  font-size: 18px;
+}
+.support-image img {
+  width: 4rem;
+  height: 4rem;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.support-list {
+  padding: 1rem;
+}
+.support-item {
+  cursor: pointer;
+  margin-bottom: 1rem;
+}
+.support-content {
+  display: flex;
+  align-items: center;
+}
+.support-content_2 {
+  margin-left: 1rem;
+}
+.support-content_2 span {
+  display: inline-block;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.support-content_2 h3 {
+  font-size: 17px;
+  margin-bottom: 5px;
+  transition: all 0.25s linear;
+  color: #306dff;
+}
+.support-content_2 h3:hover {
+  color: black;
+}
+.support-content_2 a {
+  color: #306dff;
+  transition: all 0.25s linear;
+}
+.support-content_2 a:hover {
+  color: black;
+}
+
 .footer {
   padding: 7rem 4rem;
   background-color: #282A35;

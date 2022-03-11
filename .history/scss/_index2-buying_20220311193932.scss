@@ -1,0 +1,19 @@
+.buying{
+    margin-top: 1rem;
+    background-color: #fff;
+    border-radius:0.7rem;
+    padding: 2rem 1rem;
+    display: flex;
+    flex-direction: column;
+    &-price{
+        margin-bottom: 1rem;
+    }
+    &-price_50{
+        display: inline-block;
+        margin-left: 1rem;
+        color:#f44336;
+    }
+    &-information{
+        margin-bottom: 1rem;
+    }
+}

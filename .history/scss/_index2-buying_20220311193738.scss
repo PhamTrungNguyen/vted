@@ -1,0 +1,9 @@
+.buying{
+    display: flex;
+    flex-direction: column;
+    &-price_50{
+        display: inline-block;
+        margin-left: 1rem;
+        color:#f44336;
+    }
+}

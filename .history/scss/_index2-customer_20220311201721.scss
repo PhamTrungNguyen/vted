@@ -1,0 +1,11 @@
+.customer{
+    &-buy{
+        display: flex;
+        align-items: center;
+        background-color: #e74c3c;
+        padding: 7px;
+        i{
+            margin-left: 1rem;
+        }
+    }
+}
