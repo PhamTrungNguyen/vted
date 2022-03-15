@@ -1,0 +1,10 @@
+.table{
+    margin-top: 2rem;
+    background-color: #fff;
+    padding: 1rem;
+    &-item{
+        &_title{
+            font-weight: 600;
+        }
+    }
+}

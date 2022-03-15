@@ -1,0 +1,16 @@
+.userComment{
+    &-list{
+        display: flex;
+        flex-direction: column;
+    }
+    &-item1{
+        display: flex;
+    }
+    &-item{
+        &_image{
+            width:4rem;
+            height:4rem;
+            border-radius:50%;
+        }
+    }
+}

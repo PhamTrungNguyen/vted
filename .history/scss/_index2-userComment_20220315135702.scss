@@ -1,0 +1,29 @@
+.userComment {
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: #fff;
+  &-list {
+    display: flex;
+    flex-direction: column;
+  }
+  &-item1 {
+    display: flex;
+    align-items: center;
+  }
+  &-item {
+    &_image {
+        margin-right: 1rem;
+      img {
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+      }
+    }
+    &_content1{
+        border: 1px solid #eff1f3;
+        padding: 2rem 0;
+        width: 100%;
+        text-align: center;
+    }
+  }
+}

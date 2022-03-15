@@ -1,0 +1,17 @@
+.header2{
+    padding: 5px 3rem;
+    background-image: linear-gradient(to right, #2196f3,#f44336);
+    &-content{
+        color:white;
+        &_title{
+            margin-bottom: 5px;
+        }
+    }
+    &-button{
+        color:black;
+        font-weight: 600;
+        &:hover{
+            color:white;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.table{
+    margin-top: 2rem;
+    background-color: #fff;
+    padding: 1rem;
+    &-item{
+        background-color: #efefef;
+        padding: 1rem;
+        &_title{
+            font-weight: 600;
+
+        }
+        &_content{
+            margin-top: 1rem;
+            display: flex;
+            font-size: 16px;
+        }
+    }
+}

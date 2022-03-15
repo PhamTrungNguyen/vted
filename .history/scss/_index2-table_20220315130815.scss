@@ -1,0 +1,27 @@
+.table{
+    margin-top: 2rem;
+    background-color: #fff;
+    padding: 1rem;
+    &-item{
+        background-color: #efefef;
+        padding: 1rem;
+        &_title{
+            font-weight: 600;
+
+        }
+        &_content{
+            margin-top: 1rem;
+            display: flex;
+            font-size: 16px;
+        }
+        &_package{
+            color:#7a7066;
+            i{
+                font-size: 16px;
+            }
+        }
+        &_package2{
+            color:green;
+        }
+    }
+}
